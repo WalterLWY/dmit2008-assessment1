@@ -6,7 +6,6 @@ let productStore = []
 async function getProductData (url) {
     const response = await fetch(url) 
     productStore = [... await response.json()] 
-    console.table(productStore[0])
     renderProduct(productStore)
 }
 

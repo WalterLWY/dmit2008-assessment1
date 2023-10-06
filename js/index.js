@@ -12,16 +12,10 @@ async function getProductData (url) {
 getProductData('/db/products.json')
 
 function renderProduct (products){
-
     const container = document.createElement('div')
-    container.append(productTemplate(products[0]))
-    document.querySelector('#cards').append(container)
-
     products.forEach((product) => {
         container.append(productTemplate(product))
-        console.log(container)
     })
-
     document.querySelector('#cards').append(container)
 }
 

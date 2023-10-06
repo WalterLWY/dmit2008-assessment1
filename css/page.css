@@ -8,7 +8,7 @@ h1{
 main{
     padding:3rem 1rem;
   }
-  .employee {
+  .product {
     padding: 0.5rem 1rem;
    
   }
@@ -22,7 +22,7 @@ main{
 
 
 
-  .employee h2 {
+  .product h2 {
     font-size: 1.5rem;
     font-weight: 600;
   }
@@ -37,7 +37,7 @@ main{
 
   }
 
-  .bio {
+  .info {
     font-size:14px;
     flex-grow: 1;
     margin-left: 1rem;

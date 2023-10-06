@@ -1,4 +1,4 @@
-function productTemplate ({product_name, brand, price, release_date, rating, image_url, ...product}) {
+function productTemplate ({product_name, category, price, release_date, rating, image_url, ...product}) {
     
 
     const template = `
@@ -11,7 +11,7 @@ function productTemplate ({product_name, brand, price, release_date, rating, ima
 
       <div class="info">
         <ul>
-          <li>Brand: <img src="${brand}" alt="${product_name}"</li>
+          <li>Category: ${category}</li>
           <li>Price: ${price}</li>
           <li>Release Date: ${release_date}</li>
           <li>Rating:${rating}</li>

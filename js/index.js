@@ -9,7 +9,7 @@ async function getProductData (url) {
     renderProduct(productStore)
 }
 
-getProductData('./db/products.json')
+getProductData('./products.json')
 
 function renderProduct (products){
     const container = document.createElement('div')

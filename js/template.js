@@ -13,8 +13,8 @@ function productTemplate ({product_name, category, price, country_of_origin, all
         <ul>
           <li>Category: ${category}</li>
           <li>Price: ${price}</li>
-          <li>Release Date: ${country_of_origin}</li>
-          <li>Rating: ${allergens}</li>
+          <li>Country of Origin: ${country_of_origin}</li>
+          <li>Allergens: ${allergens}</li>
         </ul>
       </div>
     </div>
